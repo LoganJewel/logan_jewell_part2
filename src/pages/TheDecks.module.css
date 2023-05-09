@@ -1,0 +1,51 @@
+.container{
+    background-color: navy;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    left: 38%;
+    text-align: center;
+    z-index: 10;
+    color: gray
+}
+.heading {
+    color: black;
+}
+
+.nav-links{
+    list-style: none;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.nav-link-item{
+    padding-right: 2rem;
+}
+
+.nav-link-text{
+    font-size: 30px;
+    margin: 15px;
+    color:  gray;
+}
+
+.site-title{
+    font-size: 3rem;
+    color: gray;
+    font-weight: 600;
+}

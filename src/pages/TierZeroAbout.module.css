@@ -1,28 +1,37 @@
 .container{
-    background-color: white;
+    background-color: black;
     margin: auto;
-    max-height: 500px;
-    max-width: 500px;
     font-family: sans-serif;
 }
 
 .backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
-    z-index: 0;
+    z-index: -1;
 }
 
 .content {
+    position: absolute;
+    left: 35%;
+    text-align: center;
     z-index: 10;
+    color: white;
 }
 .heading {
     color: black;
 }
 
 .nav-links{
-    display: flex;
     list-style: none;
-    padding-left: 0;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    width: 100%;
+    display: flex;
+    text-align: center;
 }
 
 .nav-link-item{
@@ -30,7 +39,9 @@
 }
 
 .nav-link-text{
-    color: black;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
 }
 
 .site-title{
