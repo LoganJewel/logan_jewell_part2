@@ -8,6 +8,8 @@ import {navLinkText} from './TheDecks.module.css'
 import {backgroundImage} from './TheDecks.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 import {content} from './TheDecks.module.css'
+import {menu} from './TheDecks.module.css'
+import {menuContent} from './TheDecks.module.css'
 
 const TheDecks = () =>{
   return (
@@ -18,8 +20,18 @@ const TheDecks = () =>{
         <ul className={navLinks}>
           <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
           <li className={navLinkItem}><Link to="/TierZeroAbout" className={navLinkText}>TierZeroAbout</Link></li>
+
+          <li className={`${navLinkItem} ${menu}`}>
+            <a href="#" className = {navLinkText}>
+              Choose A Banished Deck:
+            </a>
+            <div className={menuContent}>
+              <Link to="/DarkArmedDragon">Dark Armed Dragon</Link>
+            </div>
+          </li>
         </ul>
       </nav>
+
     </main>
   );
 };

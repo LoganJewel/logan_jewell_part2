@@ -18,7 +18,7 @@
     left: 38%;
     text-align: center;
     z-index: 10;
-    color: gray
+    color: gray;
 }
 .heading {
     color: black;
@@ -48,4 +48,18 @@
     font-size: 3rem;
     color: gray;
     font-weight: 600;
+}
+
+.menu {
+    position: center;
+    display: block;
+}
+
+.menuContent{
+    position: absolute;
+    left: 38%;
+    text-align: center;
+    z-index: 1;
+    color: gray;
+
 }

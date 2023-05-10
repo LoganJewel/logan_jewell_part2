@@ -18,7 +18,7 @@
     left: 35%;
     text-align: center;
     z-index: 10;
-    color: white;
+    color: gray;
 }
 .heading {
     color: black;
@@ -41,11 +41,21 @@
 .nav-link-text{
     font-size: 30px;
     margin: 15px;
-    color: white;
+    color: gray;
 }
 
 .site-title{
     font-size: 3rem;
     color: black;
     font-weight: 600;
+}
+
+.about-text{
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    margin: 15px;
+    z-index: 10;
+    color: gray;
 }
