@@ -9,7 +9,7 @@ import {backgroundImage} from './TierZeroAbout.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
 import {content} from './TierZeroAbout.module.css'
 import {MDXRenderer} from 'gatsby-plugin-mdx'
-import {AboutMDX} from './about.mdx'
+import {AboutMDX} from '../DeckInfo/about.mdx'
 
 const TierZeroAbout = () =>{
   return (
