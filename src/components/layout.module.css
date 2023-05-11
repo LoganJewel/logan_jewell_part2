@@ -21,17 +21,17 @@
 }
 
 .header {
-    display: flex !important;
-    top: 0 !important;
-    flex-direction: column !important;
-    align-items: center !important;
+    position: fixed;
+    display: flex;
+    left: 10%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-links{
     list-style: none;
     position: absolute;
     top: 10%;
-    left: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@
 }
 
 .nav-link-text{
-    font-size: 30px;
+    font-size: 20px;
     margin: 15px;
     color: gray;
 }
@@ -63,14 +63,14 @@
 .menu {
     position: absolute;
     top: 20%;
-    left: 36%;
+    left: 43%;
     display: inline-block;
 }
 
 .menuContent{
     display: none;
     position: absolute;
-    font-size: 25px;
+    font-size: 15px;
     z-index: 1;
     color: white;
 }
@@ -91,6 +91,7 @@
     text-align: center;
     margin: 15px;
     margin-top: 50px;
+    padding-top: 50px;
     z-index: 10;
     color: gray;
 }
