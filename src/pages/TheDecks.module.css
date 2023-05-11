@@ -51,15 +51,25 @@
 }
 
 .menu {
-    position: center;
-    display: block;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    display: inline-block;
 }
 
 .menuContent{
+    display: none;
     position: absolute;
-    left: 38%;
-    text-align: center;
+    font-size: 25px;
     z-index: 1;
-    color: gray;
+    color: white;
+}
 
+.menuContent a {
+    display: block;
+    padding: 15px 15px;
+}
+
+.menu:hover .menuContent{
+    display: block;
 }

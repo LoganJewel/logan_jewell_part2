@@ -20,18 +20,16 @@ const TheDecks = () =>{
         <ul className={navLinks}>
           <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
           <li className={navLinkItem}><Link to="/TierZeroAbout" className={navLinkText}>TierZeroAbout</Link></li>
-
-          <li className={`${navLinkItem} ${menu}`}>
+        </ul>
+      </nav>
+      <div className={menu}>
             <a href="#" className = {navLinkText}>
               Choose A Banished Deck:
             </a>
             <div className={menuContent}>
               <Link to="/DarkArmedDragon">Dark Armed Dragon</Link>
             </div>
-          </li>
-        </ul>
-      </nav>
-
+      </div>
     </main>
   );
 };
