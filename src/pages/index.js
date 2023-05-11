@@ -1,7 +1,5 @@
 import * as React from 'react'
-import {graphql} from 'gatsby'
 import {Link} from 'gatsby'
-import {container} from './index.module.css'
 import {navLinks} from './index.module.css'
 import {navLinkItem} from './index.module.css'
 import {navLinkText} from './index.module.css'

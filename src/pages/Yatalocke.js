@@ -1,19 +1,17 @@
 import * as React from 'react'
-import {graphql} from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import {content} from '../components/layout.module.css'
 import {aboutText} from '../components/layout.module.css'
 import YataMDX from '../DeckInfo/Yatalocke.mdx'
 import Layout from '../components/layout'
-import header from '../components/layout.module.css'
+import {header} from '../components/layout.module.css'
+import {pageImage} from '../components/layout.module.css'
 
 const Yata = () =>{
   return (
     <main>
       <Layout pageHeading = 'Yatalocke'>  
         <div className= {header}>
-          <StaticImage src='../images/Yatalocke.jpg' alt=''></StaticImage>
-          <h1 className = {content}>Yatalocke</h1>
+          <StaticImage src='../images/Yatalocke.jpg' alt='' className={pageImage}></StaticImage>
         </div>
       <div className ={aboutText}>
         <YataMDX/>

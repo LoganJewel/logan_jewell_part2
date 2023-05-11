@@ -1,7 +1,5 @@
 import * as React from 'react'
-import {graphql} from 'gatsby'
 import {Link} from 'gatsby'
-import {container} from './TheDecks.module.css'
 import {navLinks} from './TheDecks.module.css'
 import {navLinkItem} from './TheDecks.module.css'
 import {navLinkText} from './TheDecks.module.css'
@@ -30,11 +28,11 @@ const TheDecks = () =>{
               <Link to="/DarkArmedDragon">Dark Armed Dragon</Link>
               <Link to="/DragonRulers">DragonRulers</Link>
               <Link to="/Nekroz">Nekroz</Link>
-              <Link to="/Pepe">PePe</Link>
-              <Link to="/Spellbook">Spellbooks</Link>
+              <Link to="/PePe">PePe</Link>
+              <Link to="/Spellbooks">Spellbooks</Link>
               <Link to="/Spright">Spright</Link>
               <Link to="/SPYRAL">SPYRAL</Link>
-              <Link to="/Tearlament">Tearlament Ishizu</Link>
+              <Link to="/Tearlament">Tearlament</Link>
               <Link to="/Yatalocke">Yatalocke</Link>
               <Link to="/Zoodiac">Zoodiacs</Link>
             </div>

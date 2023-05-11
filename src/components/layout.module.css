@@ -12,12 +12,20 @@
     z-index: -1;
 }
 
+.pageImage {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 450px;
+    width: 300px;
+}
+
 .content {
     position: absolute;
     left: 35%;
     text-align: center;
     z-index: 10;
-    color: gray;
+    color: goldenrod;
 }
 
 .header {
@@ -45,7 +53,7 @@
 .nav-link-text{
     font-size: 20px;
     margin: 15px;
-    color: gray;
+    color: goldenrod;
 }
 
 .about-text {
@@ -56,7 +64,7 @@
 
 .site-title{
     font-size: 3rem;
-    color: black;
+    color: goldenrod;
     font-weight: 600;
 }
 
@@ -72,12 +80,14 @@
     position: absolute;
     font-size: 15px;
     z-index: 1;
-    color: white;
+    color: goldenrod;
 }
 
 .menuContent a {
     display: block;
+    line-height: 1;
     padding: 15px 15px;
+    color: yellow
 }
 
 .menu:hover .menuContent{
@@ -85,14 +95,14 @@
 }
 
 .about-text{
-    font-size: 25px;
+    font-size: 17px;
     position: absolute;
-    top: 30%;
+    top: 45%;
     text-align: center;
     margin: 15px;
     margin-top: 50px;
     padding-top: 50px;
-    z-index: 10;
-    color: gray;
+    z-index: 0;
+    color: white;
 }
 
