@@ -39,7 +39,7 @@
 .nav-links{
     list-style: none;
     position: absolute;
-    top: 10%;
+    top: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
 }
 
 .about-text {
-    font-size: 25px;
+    font-size: 20px;
     position: absolute;
     top: 30%
 }
@@ -70,7 +70,7 @@
 
 .menu {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 43%;
     display: inline-block;
 }
@@ -86,7 +86,7 @@
 .menuContent a {
     display: block;
     line-height: 1;
-    padding: 15px 15px;
+    padding: 13px 13px;
     color: yellow
 }
 
@@ -97,7 +97,7 @@
 .about-text{
     font-size: 17px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     text-align: center;
     margin: 15px;
     margin-top: 50px;

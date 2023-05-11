@@ -18,10 +18,10 @@
     left: 38%;
     text-align: center;
     z-index: 10;
-    color: gray;
+    color: goldenrod;
 }
 .heading {
-    color: black;
+    color: goldenrod;
 }
 
 .nav-links{
@@ -41,12 +41,12 @@
 .nav-link-text{
     font-size: 30px;
     margin: 15px;
-    color:  gray;
+    color:  goldenrod;
 }
 
 .site-title{
     font-size: 3rem;
-    color: gray;
+    color: goldenrod;
     font-weight: 600;
 }
 
@@ -60,14 +60,15 @@
 .menuContent{
     display: none;
     position: absolute;
-    font-size: 25px;
+    font-size: 15px;
     z-index: 1;
-    color: white;
+    color: goldenrod;
 }
 
 .menuContent a {
     display: block;
     padding: 15px 15px;
+    color: yellow;
 }
 
 .menu:hover .menuContent{

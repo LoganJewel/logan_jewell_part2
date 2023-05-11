@@ -1,5 +1,4 @@
 import * as React from 'react'
-import {graphql} from 'gatsby'
 import {Link} from 'gatsby'
 import {container} from './layout.module.css'
 import {navLinks} from './layout.module.css'
